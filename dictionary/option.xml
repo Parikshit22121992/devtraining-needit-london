@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="label" max_length="40" name="option" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="ABC" max_length="40" name="x_58872_needit_u_abc" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="New Choice" max_length="40" name="x_58872_needit_u_choice_4" type="string">
+            <choice/>
+        </element>
+        <element label="New Date/Time" max_length="40" name="x_58872_needit_u_glide_date_time_5" type="glide_date_time"/>
+        <element label="New Reference" max_length="32" name="x_58872_needit_u_reference_3" reference="cmdb_ci_appl_dot_net" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="New String" max_length="40" name="x_58872_needit_u_string_2" type="string"/>
+    </element>
+</database>
